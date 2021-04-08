@@ -5,7 +5,7 @@
 if [ -n "$1" ]; then
   prog="$@"
 else
-  prog="fzf -e"
+  prog="fzf"
 fi
 
 echo "$1"
