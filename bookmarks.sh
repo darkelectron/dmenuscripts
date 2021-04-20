@@ -8,7 +8,6 @@ else
   prog="fzf"
 fi
 
-echo "$1"
 parse="$(cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | $prog)"
 
 if [ -n "$parse" ]; then
