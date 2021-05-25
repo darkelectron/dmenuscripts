@@ -1,1 +1,3 @@
-dmenu scripts
+My dmenu scripts
+
+- Descriptions in scripts

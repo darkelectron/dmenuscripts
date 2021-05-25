@@ -1,4 +1,6 @@
 #! /usr/bin/env bash
+# from gotbletu
+# open surfraw bookmarks
 
 #fzf-surfraw() { surfraw "$(cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | fzf -e)" ;}
 

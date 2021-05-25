@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+# change bsp-layout
 
 if [ -n "$1" ]; then
   prog="$@"

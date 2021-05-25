@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+# kill tmux session
 
 if [ -n "$1" ]; then
   prog="$@"

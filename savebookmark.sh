@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+# save bookmark in clipboard to surfraw
 
 if [ -n "$1" ]; then
   prog="$@"

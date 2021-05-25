@@ -1,5 +1,6 @@
 #! /usr/bin/env bash
-# based on BugsWriter script
+# based on BugsWriter's script
+# kill a process
 
 if [ -n "$1" ]; then
   prog="$@"

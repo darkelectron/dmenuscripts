@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+# play another music folder
 
 if [ -n "$1" ]; then
   prog="$@"
