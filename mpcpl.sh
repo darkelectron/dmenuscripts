@@ -2,14 +2,12 @@
 # play another music folder
 
 if [ -n "$1" ]; then
-  prog="$@"
+  prog="$*"
 else
   prog="fzf"
 fi
 
 parse="$(mpc ls | $prog | xargs)"
-
-echo $parse
 
 if [ -n "$parse" ]; then
   mpc clear

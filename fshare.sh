@@ -3,7 +3,7 @@
 # share files through 0x0.st
 
 if [ -n "$1" ]; then
-  prog="$@"
+  prog="$*"
 else
   prog="fzf"
 fi

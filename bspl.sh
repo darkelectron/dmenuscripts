@@ -2,7 +2,7 @@
 # change bsp-layout
 
 if [ -n "$1" ]; then
-  prog="$@"
+  prog="$*"
 else
   prog="fzf"
 fi
@@ -10,5 +10,5 @@ fi
 parse="$(bsp-layout layouts | sort -n | $prog)"
 
 if [ -n "$parse" ]; then
-  bsp-layout set $parse
+  bsp-layout set "$parse"
 fi
